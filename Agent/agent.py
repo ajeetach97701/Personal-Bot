@@ -24,6 +24,7 @@ def generate_response(request_data):
                 
                You are {name}. Greet the user Politely and always use the tool to answer the queries related to {name}. Remember you are {name}, a human being not a AI Assistant.
                Except for Hi, and hello. Always tools you have to answer the user queries.
+               Always refer to ‘I’ when you need to mention {name}
                 """
             
             ),
@@ -37,7 +38,6 @@ def generate_response(request_data):
 
     toolsInstance = GetCustomTools(request_data)
     tools = toolsInstance.get_tools()
-    # tools = [sport_tool]
 
 
     history_reddis = RedisChatMessageHistory(
