@@ -1,0 +1,21 @@
+__pycache__
+.env
+venv/
+.DS_Store
+
+venv
+.env
+__pycache__
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store
+Chroma/
+OpenAIFunctionTest
+out.csv
+cgMotorsEnv/
+ChromaStores/
+CG-Motors/
+test.ipynb
+try.ipynb
+MultiLanguageEmbeddingTest/
+Data/personal_cv.pdf

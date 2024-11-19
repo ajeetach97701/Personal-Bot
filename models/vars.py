@@ -1,0 +1,1 @@
+DELETE_HISTORY_QUERYS=['menu','lead','restart','session-restart','reload','/menu','Menu', '/clear']
