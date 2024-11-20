@@ -26,7 +26,6 @@ def generate_response(request_data):
                Except for Hi, and hello. Always tools you have to answer the user queries.
                Always refer to ‘I’ when you need to mention {name}
                 """
-            
             ),
             ("placeholder", "{chat_history}"),
             ("human", "{query}"),

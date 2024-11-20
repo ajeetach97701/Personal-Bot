@@ -34,13 +34,6 @@ async def response_generator(data:dict):
         tool_queue.task_done()  
         await asyncio.sleep(0.01)
 
-
-
-
-
-
-
-
 from fastapi import FastAPI
 app = FastAPI()
 @app.get('/response')

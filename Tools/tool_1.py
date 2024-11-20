@@ -36,5 +36,8 @@ def retrieval_tool(self):
         }) | prompt | llm | string_parser
         response = chain.invoke({"query":query})
         print("From tool response is:",response)
+        print()
+        print()
+        print()
         return response
     return retrieval
